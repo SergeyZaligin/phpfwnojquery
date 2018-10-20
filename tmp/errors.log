@@ -1,0 +1,774 @@
+[2018-09-19 12:06:28] | Текст ошибки: 404 | Файл E:\OSPanel\domains\wtcms.loc\public\index.php | Строка 9
+ ================= 
+ [2018-09-19 12:06:28] | Текст ошибки: 404 | Файл E:\OSPanel\domains\wtcms.loc\public\index.php | Строка 9
+ ================= 
+ [2018-09-19 12:08:37] | Текст ошибки: 404 | Файл E:\OSPanel\domains\wtcms.loc\public\index.php | Строка 9
+ ================= 
+ [2018-09-19 12:15:12] | Текст ошибки: 404 | Файл E:\OSPanel\domains\wtcms.loc\public\index.php | Строка 9
+ ================= 
+ [2018-09-19 12:15:37] | Текст ошибки: 404 | Файл E:\OSPanel\domains\wtcms.loc\public\index.php | Строка 9
+ ================= 
+ [2018-09-19 12:15:51] | Текст ошибки: 404 | Файл E:\OSPanel\domains\wtcms.loc\public\index.php | Строка 9
+ ================= 
+ [2018-09-19 13:32:01] | Текст ошибки: Class 'wcms\Router' not found | Файл E:\OSPanel\domains\wtcms.loc\public\index.php | Строка 7
+ ================= 
+ [2018-09-19 13:32:31] | Текст ошибки: Class 'wcms\Router' not found | Файл E:\OSPanel\domains\wtcms.loc\public\index.php | Строка 7
+ ================= 
+ [2018-09-19 13:32:37] | Текст ошибки: Class 'wcms\Router' not found | Файл E:\OSPanel\domains\wtcms.loc\public\index.php | Строка 7
+ ================= 
+ [2018-09-19 13:35:37] | Текст ошибки: 404 | Файл E:\OSPanel\domains\wtcms.loc\public\index.php | Строка 10
+ ================= 
+ [2018-09-19 13:36:54] | Текст ошибки: 404 | Файл E:\OSPanel\domains\wtcms.loc\public\index.php | Строка 10
+ ================= 
+ [2018-09-19 13:53:03] | Текст ошибки: 404 | Файл E:\OSPanel\domains\wtcms.loc\public\index.php | Строка 10
+ ================= 
+ [2018-09-19 13:53:10] | Текст ошибки: 404 | Файл E:\OSPanel\domains\wtcms.loc\public\index.php | Строка 10
+ ================= 
+ [2018-09-21 12:28:39] | Текст ошибки: 404 | Файл E:\OSPanel\domains\wtcms.loc\public\index.php | Строка 10
+ ================= 
+ [2018-09-21 12:28:39] | Текст ошибки: 404 | Файл E:\OSPanel\domains\wtcms.loc\public\index.php | Строка 10
+ ================= 
+ [2018-09-21 12:50:01] | Текст ошибки: Argument 1 passed to engine\Router::matchRoute() must be of the type string, null given, called in E:\OSPanel\domains\wtcms.loc\engine\core\Router.php on line 48 | Файл E:\OSPanel\domains\wtcms.loc\engine\core\Router.php | Строка 76
+ ================= 
+ [2018-09-21 12:50:01] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\wtcms.loc\engine\core\Router.php | Строка 66
+ ================= 
+ [2018-09-21 12:51:05] | Текст ошибки: Argument 1 passed to engine\Router::dispatch() must be of the type array, string given, called in E:\OSPanel\domains\wtcms.loc\engine\core\App.php on line 35 | Файл E:\OSPanel\domains\wtcms.loc\engine\core\Router.php | Строка 43
+ ================= 
+ [2018-09-21 12:51:49] | Текст ошибки: Argument 1 passed to engine\Router::matchRoute() must be of the type string, null given, called in E:\OSPanel\domains\wtcms.loc\engine\core\Router.php on line 48 | Файл E:\OSPanel\domains\wtcms.loc\engine\core\Router.php | Строка 76
+ ================= 
+ [2018-09-21 12:52:12] | Текст ошибки: Argument 1 passed to engine\Router::matchRoute() must be of the type array, null given, called in E:\OSPanel\domains\wtcms.loc\engine\core\Router.php on line 48 | Файл E:\OSPanel\domains\wtcms.loc\engine\core\Router.php | Строка 76
+ ================= 
+ [2018-09-21 12:52:46] | Текст ошибки: Argument 1 passed to engine\Router::matchRoute() must be of the type string, null given, called in E:\OSPanel\domains\wtcms.loc\engine\core\Router.php on line 48 | Файл E:\OSPanel\domains\wtcms.loc\engine\core\Router.php | Строка 76
+ ================= 
+ [2018-09-21 12:53:45] | Текст ошибки: Argument 1 passed to engine\Router::matchRoute() must be of the type string, null given, called in E:\OSPanel\domains\wtcms.loc\engine\core\Router.php on line 48 | Файл E:\OSPanel\domains\wtcms.loc\engine\core\Router.php | Строка 76
+ ================= 
+ [2018-09-21 12:54:22] | Текст ошибки: Argument 1 passed to engine\Router::matchRoute() must be of the type string, null given, called in E:\OSPanel\domains\wtcms.loc\engine\core\Router.php on line 48 | Файл E:\OSPanel\domains\wtcms.loc\engine\core\Router.php | Строка 76
+ ================= 
+ [2018-09-21 12:56:32] | Текст ошибки: Контроллер app\controllers\MainController не найден | Файл E:\OSPanel\domains\wtcms.loc\engine\core\Router.php | Строка 63
+ ================= 
+ [2018-09-21 12:58:17] | Текст ошибки: Метод app\controllers\MainController::indexAction не найден | Файл E:\OSPanel\domains\wtcms.loc\engine\core\Router.php | Строка 60
+ ================= 
+ [2018-09-21 12:59:05] | Текст ошибки: Call to undefined method app\controllers\MainController::getView() | Файл E:\OSPanel\domains\wtcms.loc\engine\core\Router.php | Строка 58
+ ================= 
+ [2018-09-21 13:19:53] | Текст ошибки: Call to undefined method app\controllers\MainController::getView() | Файл E:\OSPanel\domains\wtcms.loc\engine\core\Router.php | Строка 58
+ ================= 
+ [2018-09-21 13:21:18] | Текст ошибки: Call to undefined method app\controllers\MainController::getView() | Файл E:\OSPanel\domains\wtcms.loc\engine\core\Router.php | Строка 58
+ ================= 
+ [2018-09-21 13:23:11] | Текст ошибки: Call to undefined method app\controllers\MainController::getView() | Файл E:\OSPanel\domains\wtcms.loc\engine\core\Router.php | Строка 58
+ ================= 
+ [2018-09-21 13:23:33] | Текст ошибки: Call to undefined method app\controllers\MainController::getView() | Файл E:\OSPanel\domains\wtcms.loc\engine\core\Router.php | Строка 59
+ ================= 
+ [2018-09-21 13:26:44] | Текст ошибки: Class 'app\controllers\AppModel' not found | Файл E:\OSPanel\domains\wtcms.loc\app\controllers\AppController.php | Строка 18
+ ================= 
+ [2018-09-21 13:27:20] | Текст ошибки: Class 'engine\base\Db' not found | Файл E:\OSPanel\domains\wtcms.loc\engine\core\base\Model.php | Строка 55
+ ================= 
+ [2018-09-21 13:28:12] | Текст ошибки: Контроллер app\controllers\UserController не найден | Файл E:\OSPanel\domains\wtcms.loc\engine\core\Router.php | Строка 63
+ ================= 
+ [2018-09-21 13:30:26] | Текст ошибки: Class 'app\controllers\R' not found | Файл E:\OSPanel\domains\wtcms.loc\app\controllers\MainController.php | Строка 15
+ ================= 
+ [2018-09-21 13:31:48] | Текст ошибки: Class 'app\controllers\R' not found | Файл E:\OSPanel\domains\wtcms.loc\app\controllers\MainController.php | Строка 15
+ ================= 
+ [2018-09-21 13:33:45] | Текст ошибки: Class 'app\controllers\R' not found | Файл E:\OSPanel\domains\wtcms.loc\app\controllers\MainController.php | Строка 15
+ ================= 
+ [2018-09-21 13:34:14] | Текст ошибки: Class 'app\controllers\R' not found | Файл E:\OSPanel\domains\wtcms.loc\app\controllers\MainController.php | Строка 15
+ ================= 
+ [2018-09-21 13:48:21] | Текст ошибки: preg_match() expects parameter 2 to be string, null given | Файл E:\OSPanel\domains\wtcms.loc\engine\core\Router.php | Строка 81
+ ================= 
+ [2018-09-21 13:50:04] | Текст ошибки: preg_match() expects parameter 2 to be string, null given | Файл E:\OSPanel\domains\wtcms.loc\engine\core\Router.php | Строка 81
+ ================= 
+ [2018-09-21 13:51:18] | Текст ошибки: preg_match() expects parameter 2 to be string, null given | Файл E:\OSPanel\domains\wtcms.loc\engine\core\Router.php | Строка 81
+ ================= 
+ [2018-09-21 13:54:11] | Текст ошибки: preg_match() expects parameter 2 to be string, null given | Файл E:\OSPanel\domains\wtcms.loc\engine\core\Router.php | Строка 81
+ ================= 
+ [2018-09-21 13:54:29] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\wtcms.loc\engine\core\Router.php | Строка 66
+ ================= 
+ [2018-09-21 13:55:35] | Текст ошибки: Argument 1 passed to engine\Router::matchRoute() must be of the type string, null given, called in E:\OSPanel\domains\wtcms.loc\engine\core\Router.php on line 48 | Файл E:\OSPanel\domains\wtcms.loc\engine\core\Router.php | Строка 76
+ ================= 
+ [2018-09-21 13:56:02] | Текст ошибки: Argument 1 passed to engine\Router::matchRoute() must be of the type string, null given, called in E:\OSPanel\domains\wtcms.loc\engine\core\Router.php on line 48 | Файл E:\OSPanel\domains\wtcms.loc\engine\core\Router.php | Строка 76
+ ================= 
+ [2018-09-21 13:56:15] | Текст ошибки: Argument 1 passed to engine\Router::matchRoute() must be of the type string, null given, called in E:\OSPanel\domains\wtcms.loc\engine\core\Router.php on line 48 | Файл E:\OSPanel\domains\wtcms.loc\engine\core\Router.php | Строка 76
+ ================= 
+ [2018-09-21 13:56:40] | Текст ошибки: Argument 1 passed to engine\Router::matchRoute() must be of the type string, null given, called in E:\OSPanel\domains\wtcms.loc\engine\core\Router.php on line 48 | Файл E:\OSPanel\domains\wtcms.loc\engine\core\Router.php | Строка 76
+ ================= 
+ [2018-09-21 13:56:56] | Текст ошибки: Argument 1 passed to engine\Router::matchRoute() must be of the type string, null given, called in E:\OSPanel\domains\wtcms.loc\engine\core\Router.php on line 48 | Файл E:\OSPanel\domains\wtcms.loc\engine\core\Router.php | Строка 76
+ ================= 
+ [2018-09-21 13:57:54] | Текст ошибки: Call to undefined function engine\string() | Файл E:\OSPanel\domains\wtcms.loc\engine\core\App.php | Строка 35
+ ================= 
+ [2018-09-21 13:58:51] | Текст ошибки: preg_match() expects parameter 2 to be string, null given | Файл E:\OSPanel\domains\wtcms.loc\engine\core\Router.php | Строка 81
+ ================= 
+ [2018-09-21 13:59:01] | Текст ошибки: preg_match() expects parameter 2 to be string, null given | Файл E:\OSPanel\domains\wtcms.loc\engine\core\Router.php | Строка 81
+ ================= 
+ [2018-09-21 13:59:18] | Текст ошибки: Argument 1 passed to engine\Router::matchRoute() must be of the type string, null given, called in E:\OSPanel\domains\wtcms.loc\engine\core\Router.php on line 48 | Файл E:\OSPanel\domains\wtcms.loc\engine\core\Router.php | Строка 76
+ ================= 
+ [2018-09-21 13:59:39] | Текст ошибки: Argument 1 passed to engine\Router::matchRoute() must be of the type string, null given, called in E:\OSPanel\domains\wtcms.loc\engine\core\Router.php on line 48 | Файл E:\OSPanel\domains\wtcms.loc\engine\core\Router.php | Строка 76
+ ================= 
+ [2018-09-21 13:59:55] | Текст ошибки: preg_match() expects parameter 2 to be string, null given | Файл E:\OSPanel\domains\wtcms.loc\engine\core\Router.php | Строка 81
+ ================= 
+ [2018-09-21 14:00:33] | Текст ошибки: preg_match() expects parameter 2 to be string, null given | Файл E:\OSPanel\domains\wtcms.loc\engine\core\Router.php | Строка 82
+ ================= 
+ [2018-09-21 14:01:19] | Текст ошибки: Не найден вид E:\OSPanel\domains\wtcms.loc/app/views/User/logout.php | Файл E:\OSPanel\domains\wtcms.loc\engine\core\base\View.php | Строка 100
+ ================= 
+ [2018-09-21 14:02:06] | Текст ошибки: Class 'engine\base\Validator' not found | Файл E:\OSPanel\domains\wtcms.loc\engine\core\base\Model.php | Строка 63
+ ================= 
+ [2018-09-23 11:00:40] | Текст ошибки: Class 'RedBeanPHP\R' not found | Файл /opt/lampp/htdocs/wtcms.loc/engine/core/Database.php | Строка 24
+ ================= 
+ [2018-09-23 11:01:17] | Текст ошибки: Class 'R' not found | Файл /opt/lampp/htdocs/wtcms.loc/engine/core/Database.php | Строка 24
+ ================= 
+ [2018-09-23 11:13:15] | Текст ошибки: Class 'app\controllers\Pagination' not found | Файл /opt/lampp/htdocs/wtcms.loc/app/controllers/MainController.php | Строка 19
+ ================= 
+ [2018-09-23 11:15:45] | Текст ошибки: Не найден вид /opt/lampp/htdocs/wtcms.loc/app/views/User/logout.php | Файл /opt/lampp/htdocs/wtcms.loc/engine/core/base/View.php | Строка 100
+ ================= 
+ [2018-09-23 11:15:45] | Текст ошибки: Страница не найдена | Файл /opt/lampp/htdocs/wtcms.loc/engine/core/Router.php | Строка 66
+ ================= 
+ [2018-09-23 11:15:48] | Текст ошибки: Страница не найдена | Файл /opt/lampp/htdocs/wtcms.loc/engine/core/Router.php | Строка 66
+ ================= 
+ [2018-09-23 11:27:23] | Текст ошибки: Return value of engine\libs\Pagination::getCountPages() must be of the type integer, float returned | Файл /opt/lampp/htdocs/wtcms.loc/engine/core/libs/Pagination.php | Строка 97
+ ================= 
+ [2018-09-23 11:28:08] | Текст ошибки: Return value of engine\libs\Pagination::getCountPages() must be of the type integer, float returned | Файл /opt/lampp/htdocs/wtcms.loc/engine/core/libs/Pagination.php | Строка 97
+ ================= 
+ [2018-09-23 12:02:23] | Текст ошибки: Call to undefined method engine\Database::instance() | Файл /opt/lampp/htdocs/fw.loc/engine/core/base/Model.php | Строка 39
+ ================= 
+ [2018-09-23 12:02:24] | Текст ошибки: Страница не найдена | Файл /opt/lampp/htdocs/fw.loc/engine/core/Router.php | Строка 66
+ ================= 
+ [2018-09-23 12:26:31] | Текст ошибки: Too few arguments to function engine\Database::__construct(), 0 passed in /opt/lampp/htdocs/fw.loc/engine/core/base/Model.php on line 39 and exactly 1 expected | Файл /opt/lampp/htdocs/fw.loc/engine/core/Database.php | Строка 52
+ ================= 
+ [2018-09-23 12:33:38] | Текст ошибки: Too few arguments to function engine\Database::__construct(), 0 passed in /opt/lampp/htdocs/fw.loc/app/controllers/MainController.php on line 26 and exactly 1 expected | Файл /opt/lampp/htdocs/fw.loc/engine/core/Database.php | Строка 52
+ ================= 
+ [2018-09-23 12:34:54] | Текст ошибки: Call to a member function query() on null | Файл /opt/lampp/htdocs/fw.loc/app/controllers/MainController.php | Строка 27
+ ================= 
+ [2018-09-23 12:35:26] | Текст ошибки: Call to a member function query() on null | Файл /opt/lampp/htdocs/fw.loc/app/controllers/MainController.php | Строка 27
+ ================= 
+ [2018-09-23 12:41:44] | Текст ошибки: Call to a member function query() on null | Файл /opt/lampp/htdocs/fw.loc/app/controllers/MainController.php | Строка 27
+ ================= 
+ [2018-09-23 12:44:40] | Текст ошибки: Call to undefined method app\models\User::query() | Файл /opt/lampp/htdocs/fw.loc/app/controllers/MainController.php | Строка 27
+ ================= 
+ [2018-09-23 12:45:22] | Текст ошибки: Call to undefined method app\models\User::query() | Файл /opt/lampp/htdocs/fw.loc/app/controllers/MainController.php | Строка 27
+ ================= 
+ [2018-09-23 13:12:30] | Текст ошибки: Return value of app\models\Post::count() must be of the type integer, array returned | Файл /opt/lampp/htdocs/fw.loc/app/models/Post.php | Строка 20
+ ================= 
+ [2018-09-23 13:12:54] | Текст ошибки: Undefined class constant 'FETCH_ROW' | Файл /opt/lampp/htdocs/fw.loc/app/models/Post.php | Строка 20
+ ================= 
+ [2018-09-23 13:17:00] | Текст ошибки: Call to a member function fetchColumn() on array | Файл /opt/lampp/htdocs/fw.loc/app/models/Post.php | Строка 20
+ ================= 
+ [2018-09-23 13:17:28] | Текст ошибки: Call to a member function fetchColumn() on array | Файл /opt/lampp/htdocs/fw.loc/app/models/Post.php | Строка 20
+ ================= 
+ [2018-09-23 13:17:45] | Текст ошибки: Call to a member function fetchColumn() on array | Файл /opt/lampp/htdocs/fw.loc/app/models/Post.php | Строка 20
+ ================= 
+ [2018-09-23 13:17:59] | Текст ошибки: Call to a member function fetchColumn() on array | Файл /opt/lampp/htdocs/fw.loc/app/models/Post.php | Строка 20
+ ================= 
+ [2018-09-23 13:18:28] | Текст ошибки: Call to a member function fetch() on array | Файл /opt/lampp/htdocs/fw.loc/app/models/Post.php | Строка 20
+ ================= 
+ [2018-09-23 14:02:50] | Текст ошибки: Return value of engine\base\Model::validate() must be of the type boolean, none returned | Файл /opt/lampp/htdocs/fw.loc/engine/core/base/Model.php | Строка 75
+ ================= 
+ [2018-09-23 14:16:39] | Текст ошибки: Call to undefined method engine\libs\Validator::validate() | Файл /opt/lampp/htdocs/fw.loc/engine/core/base/Model.php | Строка 68
+ ================= 
+ [2018-09-23 14:18:22] | Текст ошибки: Call to undefined method engine\libs\Validator::errors() | Файл /opt/lampp/htdocs/fw.loc/engine/core/base/Model.php | Строка 72
+ ================= 
+ [2018-09-23 14:29:20] | Текст ошибки: Class 'engine\base\Validator' not found | Файл /opt/lampp/htdocs/fw.loc/engine/core/base/Model.php | Строка 66
+ ================= 
+ [2018-09-23 14:38:59] | Текст ошибки: Call to undefined method app\models\User::save() | Файл /opt/lampp/htdocs/fw.loc/app/controllers/UserController.php | Строка 30
+ ================= 
+ [2018-09-23 14:51:32] | Текст ошибки: Class 'engine\base\V' not found | Файл /opt/lampp/htdocs/fw.loc/engine/core/base/Model.php | Строка 60
+ ================= 
+ [2018-09-23 15:03:05] | Текст ошибки: Class 'engine\base\R' not found | Файл /opt/lampp/htdocs/fw.loc/engine/core/base/Model.php | Строка 78
+ ================= 
+ [2018-09-23 16:06:44] | Текст ошибки: Не найден вид /opt/lampp/htdocs/fw.loc/app/views/User/logout.php | Файл /opt/lampp/htdocs/fw.loc/engine/core/base/View.php | Строка 100
+ ================= 
+ [2018-09-23 16:06:45] | Текст ошибки: Страница не найдена | Файл /opt/lampp/htdocs/fw.loc/engine/core/Router.php | Строка 66
+ ================= 
+ [2018-09-23 16:06:47] | Текст ошибки: Страница не найдена | Файл /opt/lampp/htdocs/fw.loc/engine/core/Router.php | Строка 66
+ ================= 
+ [2018-09-23 16:09:12] | Текст ошибки: Не найден вид /opt/lampp/htdocs/fw.loc/app/views/User/logout.php | Файл /opt/lampp/htdocs/fw.loc/engine/core/base/View.php | Строка 100
+ ================= 
+ [2018-09-23 16:13:45] | Текст ошибки: Не найден вид /opt/lampp/htdocs/fw.loc/app/views/User/logout.php | Файл /opt/lampp/htdocs/fw.loc/engine/core/base/View.php | Строка 100
+ ================= 
+ [2018-09-23 16:15:51] | Текст ошибки: Не найден вид /opt/lampp/htdocs/fw.loc/app/views/User/logout.php | Файл /opt/lampp/htdocs/fw.loc/engine/core/base/View.php | Строка 100
+ ================= 
+ [2018-09-23 16:56:20] | Текст ошибки: Не найден вид /opt/lampp/htdocs/fw.loc/app/views/User/logout.php | Файл /opt/lampp/htdocs/fw.loc/engine/core/base/View.php | Строка 100
+ ================= 
+ [2018-09-23 16:56:33] | Текст ошибки: Не найден вид /opt/lampp/htdocs/fw.loc/app/views/User/logout.php | Файл /opt/lampp/htdocs/fw.loc/engine/core/base/View.php | Строка 100
+ ================= 
+ [2018-09-23 16:56:38] | Текст ошибки: Не найден вид /opt/lampp/htdocs/fw.loc/app/views/User/logout.php | Файл /opt/lampp/htdocs/fw.loc/engine/core/base/View.php | Строка 100
+ ================= 
+ [2018-09-23 16:57:40] | Текст ошибки: Не найден вид /opt/lampp/htdocs/fw.loc/app/views/User/logout.php | Файл /opt/lampp/htdocs/fw.loc/engine/core/base/View.php | Строка 100
+ ================= 
+ [2018-09-24 08:27:50] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 66
+ ================= 
+ [2018-09-24 14:31:26] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 66
+ ================= 
+ [2018-09-24 15:07:35] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 66
+ ================= 
+ [2018-09-24 15:08:10] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 66
+ ================= 
+ [2018-09-25 08:24:28] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 66
+ ================= 
+ [2018-09-25 09:34:13] | Текст ошибки: syntax error, unexpected '(', expecting variable (T_VARIABLE) or '$' | Файл E:\OSPanel\domains\fw.loc\app\views\Main\index.php | Строка 14
+ ================= 
+ [2018-09-25 09:35:38] | Текст ошибки: Class 'R' not found | Файл E:\OSPanel\domains\fw.loc\app\widgets\menu\Menu.php | Строка 43
+ ================= 
+ [2018-09-25 09:45:58] | Текст ошибки: Class 'app\widgets\menu\Menu' not found | Файл E:\OSPanel\domains\fw.loc\app\views\Main\index.php | Строка 14
+ ================= 
+ [2018-09-25 10:11:44] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 66
+ ================= 
+ [2018-09-25 10:11:44] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 66
+ ================= 
+ [2018-09-25 10:11:45] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 66
+ ================= 
+ [2018-09-25 10:15:27] | Текст ошибки: Return value of engine\Cache::get() must be of the type boolean, array returned | Файл E:\OSPanel\domains\fw.loc\engine\core\Cache.php | Строка 46
+ ================= 
+ [2018-09-25 10:16:39] | Текст ошибки: Return value of engine\Cache::get() must be of the type boolean, array returned | Файл E:\OSPanel\domains\fw.loc\engine\core\Cache.php | Строка 46
+ ================= 
+ [2018-09-25 10:17:12] | Текст ошибки: Return value of engine\Cache::get() must be of the type boolean, array returned | Файл E:\OSPanel\domains\fw.loc\engine\core\Cache.php | Строка 46
+ ================= 
+ [2018-09-25 10:22:20] | Текст ошибки: Return value of engine\Cache::get() must be of the type boolean, array returned | Файл E:\OSPanel\domains\fw.loc\engine\core\Cache.php | Строка 46
+ ================= 
+ [2018-09-25 10:22:20] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 66
+ ================= 
+ [2018-09-25 10:22:31] | Текст ошибки: Return value of engine\Cache::get() must be of the type boolean, array returned | Файл E:\OSPanel\domains\fw.loc\engine\core\Cache.php | Строка 46
+ ================= 
+ [2018-09-25 10:22:51] | Текст ошибки: Return value of engine\Cache::get() must be of the type boolean, array returned | Файл E:\OSPanel\domains\fw.loc\engine\core\Cache.php | Строка 46
+ ================= 
+ [2018-09-25 10:22:56] | Текст ошибки: Return value of engine\Cache::get() must be of the type boolean, array returned | Файл E:\OSPanel\domains\fw.loc\engine\core\Cache.php | Строка 46
+ ================= 
+ [2018-09-25 11:09:23] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 66
+ ================= 
+ [2018-09-25 11:09:23] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 66
+ ================= 
+ [2018-09-25 11:09:43] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 66
+ ================= 
+ [2018-09-25 11:09:43] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 66
+ ================= 
+ [2018-09-25 11:10:00] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 66
+ ================= 
+ [2018-09-25 11:10:00] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 66
+ ================= 
+ [2018-09-25 11:11:01] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 66
+ ================= 
+ [2018-09-25 11:11:01] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 66
+ ================= 
+ [2018-09-25 11:40:43] | Текст ошибки: Call to undefined method app\widgets\menu\MenuCategory::output() | Файл E:\OSPanel\domains\fw.loc\app\widgets\menu\MenuCategory.php | Строка 58
+ ================= 
+ [2018-09-25 11:41:01] | Текст ошибки: Call to undefined method app\widgets\menu\MenuCategory::output() | Файл E:\OSPanel\domains\fw.loc\app\widgets\menu\MenuCategory.php | Строка 58
+ ================= 
+ [2018-09-25 11:41:35] | Текст ошибки: Too few arguments to function app\widgets\menu\MenuCategory::catToTemplate(), 0 passed in E:\OSPanel\domains\fw.loc\app\widgets\menu\MenuCategory.php on line 58 and exactly 3 expected | Файл E:\OSPanel\domains\fw.loc\app\widgets\menu\MenuCategory.php | Строка 82
+ ================= 
+ [2018-09-26 12:54:58] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 66
+ ================= 
+ [2018-10-04 11:44:57] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 108
+ ================= 
+ [2018-10-05 09:06:07] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 106
+ ================= 
+ [2018-10-05 09:19:00] | Текст ошибки: Call to undefined method app\controllers\MainController::setMeta() | Файл E:\OSPanel\domains\fw.loc\app\controllers\MainController.php | Строка 18
+ ================= 
+ [2018-10-05 09:19:03] | Текст ошибки: Call to undefined method app\controllers\MainController::setMeta() | Файл E:\OSPanel\domains\fw.loc\app\controllers\MainController.php | Строка 18
+ ================= 
+ [2018-10-05 09:21:27] | Текст ошибки: Call to undefined method engine\base\View::getMeta() | Файл E:\OSPanel\domains\fw.loc\app\views\layouts\header.php | Строка 8
+ ================= 
+ [2018-10-05 09:22:03] | Текст ошибки: Call to undefined method engine\base\View::getMeta() | Файл E:\OSPanel\domains\fw.loc\app\views\layouts\header.php | Строка 8
+ ================= 
+ [2018-10-05 09:22:25] | Текст ошибки: Call to undefined method engine\base\View::getMeta() | Файл E:\OSPanel\domains\fw.loc\app\views\layouts\header.php | Строка 8
+ ================= 
+ [2018-10-05 09:23:07] | Текст ошибки: Call to undefined method engine\base\View::getMeta() | Файл E:\OSPanel\domains\fw.loc\app\views\layouts\header.php | Строка 8
+ ================= 
+ [2018-10-05 09:23:07] | Текст ошибки: Call to undefined method engine\base\View::getMeta() | Файл E:\OSPanel\domains\fw.loc\app\views\layouts\header.php | Строка 8
+ ================= 
+ [2018-10-05 09:23:07] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 106
+ ================= 
+ [2018-10-05 09:24:07] | Текст ошибки: Undefined class constant 'meta' | Файл E:\OSPanel\domains\fw.loc\engine\core\base\Controller.php | Строка 88
+ ================= 
+ [2018-10-05 09:24:24] | Текст ошибки: Call to undefined method engine\base\View::getMeta() | Файл E:\OSPanel\domains\fw.loc\app\views\layouts\header.php | Строка 8
+ ================= 
+ [2018-10-05 09:25:19] | Текст ошибки: Call to undefined method engine\base\View::getMeta() | Файл E:\OSPanel\domains\fw.loc\app\views\layouts\header.php | Строка 8
+ ================= 
+ [2018-10-05 09:41:31] | Текст ошибки: Call to undefined method app\controllers\admin\UserController::setMeta() | Файл E:\OSPanel\domains\fw.loc\app\controllers\admin\UserController.php | Строка 15
+ ================= 
+ [2018-10-05 09:41:33] | Текст ошибки: Call to undefined method app\controllers\admin\UserController::setMeta() | Файл E:\OSPanel\domains\fw.loc\app\controllers\admin\UserController.php | Строка 15
+ ================= 
+ [2018-10-05 10:15:07] | Текст ошибки: preg_match() expects parameter 2 to be string, null given | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 65
+ ================= 
+ [2018-10-05 10:18:40] | Текст ошибки: Return value of engine\Router::removeQueryString() must be of the type string, none returned | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 156
+ ================= 
+ [2018-10-05 10:33:09] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-05 10:33:16] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-05 10:33:25] | Текст ошибки: Call to undefined method app\controllers\UserController::setMeta() | Файл E:\OSPanel\domains\fw.loc\app\controllers\UserController.php | Строка 16
+ ================= 
+ [2018-10-05 10:53:18] | Текст ошибки: Class name must be a valid object or a string | Файл E:\OSPanel\domains\fw.loc\app\controllers\MainController.php | Строка 24
+ ================= 
+ [2018-10-05 11:09:10] | Текст ошибки: Too few arguments to function app\models\User::insert(), 3 passed in E:\OSPanel\domains\fw.loc\app\controllers\UserController.php on line 40 and exactly 4 expected | Файл E:\OSPanel\domains\fw.loc\app\models\User.php | Строка 37
+ ================= 
+ [2018-10-05 11:10:52] | Текст ошибки: Too few arguments to function app\models\User::insert(), 3 passed in E:\OSPanel\domains\fw.loc\app\controllers\UserController.php on line 40 and exactly 4 expected | Файл E:\OSPanel\domains\fw.loc\app\models\User.php | Строка 37
+ ================= 
+ [2018-10-05 11:11:07] | Текст ошибки: Too few arguments to function app\models\User::insert(), 3 passed in E:\OSPanel\domains\fw.loc\app\controllers\UserController.php on line 40 and exactly 4 expected | Файл E:\OSPanel\domains\fw.loc\app\models\User.php | Строка 37
+ ================= 
+ [2018-10-05 11:11:35] | Текст ошибки: Too few arguments to function app\models\User::insert(), 3 passed in E:\OSPanel\domains\fw.loc\app\controllers\UserController.php on line 40 and exactly 4 expected | Файл E:\OSPanel\domains\fw.loc\app\models\User.php | Строка 37
+ ================= 
+ [2018-10-05 11:11:51] | Текст ошибки: Too few arguments to function app\models\User::insert(), 3 passed in E:\OSPanel\domains\fw.loc\app\controllers\UserController.php on line 40 and exactly 4 expected | Файл E:\OSPanel\domains\fw.loc\app\models\User.php | Строка 37
+ ================= 
+ [2018-10-05 11:13:05] | Текст ошибки: Too few arguments to function app\models\User::insert(), 3 passed in E:\OSPanel\domains\fw.loc\app\controllers\UserController.php on line 40 and exactly 4 expected | Файл E:\OSPanel\domains\fw.loc\app\models\User.php | Строка 37
+ ================= 
+ [2018-10-05 11:21:41] | Текст ошибки: Too few arguments to function app\models\User::insert(), 3 passed in E:\OSPanel\domains\fw.loc\app\controllers\UserController.php on line 40 and exactly 4 expected | Файл E:\OSPanel\domains\fw.loc\app\models\User.php | Строка 37
+ ================= 
+ [2018-10-05 11:22:43] | Текст ошибки: Too few arguments to function app\models\User::insert(), 3 passed in E:\OSPanel\domains\fw.loc\app\controllers\UserController.php on line 40 and exactly 4 expected | Файл E:\OSPanel\domains\fw.loc\app\models\User.php | Строка 37
+ ================= 
+ [2018-10-08 08:47:57] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-09 09:28:43] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-09 09:28:48] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-09 09:29:55] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-09 09:29:56] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-09 09:29:57] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-09 09:31:20] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-09 09:31:21] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-09 09:31:21] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-09 09:31:21] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-09 10:35:00] | Текст ошибки: Call to undefined method app\models\User::save() | Файл E:\OSPanel\domains\fw.loc\app\controllers\UserController.php | Строка 25
+ ================= 
+ [2018-10-09 10:35:32] | Текст ошибки: Call to undefined method app\models\User::save() | Файл E:\OSPanel\domains\fw.loc\app\controllers\UserController.php | Строка 25
+ ================= 
+ [2018-10-09 13:21:56] | Текст ошибки: Class 'engine\base\App' not found | Файл E:\OSPanel\domains\fw.loc\engine\core\base\Controller.php | Строка 111
+ ================= 
+ [2018-10-09 16:34:46] | Текст ошибки: <p>Не найден вид <b>/opt/lampp/htdocs/fw.loc/app/views/User/logout.php</b></p> | Файл /opt/lampp/htdocs/fw.loc/engine/core/base/View.php | Строка 116
+ ================= 
+ [2018-10-09 16:51:13] | Текст ошибки: Страница не найдена | Файл /opt/lampp/htdocs/fw.loc/engine/core/Router.php | Строка 124
+ ================= 
+ [2018-10-09 16:51:27] | Текст ошибки: Страница не найдена | Файл /opt/lampp/htdocs/fw.loc/engine/core/Router.php | Строка 124
+ ================= 
+ [2018-10-09 16:54:33] | Текст ошибки: Страница не найдена | Файл /opt/lampp/htdocs/fw.loc/engine/core/Router.php | Строка 124
+ ================= 
+ [2018-10-09 16:54:36] | Текст ошибки: Страница не найдена | Файл /opt/lampp/htdocs/fw.loc/engine/core/Router.php | Строка 124
+ ================= 
+ [2018-10-10 08:13:01] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-10 08:16:22] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-10 08:16:24] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-11 08:45:45] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ [2018-10-09 17:36:05] | Текст ошибки: Argument 1 passed to engine\base\Model::validate() must be of the type array, null given, called in /opt/lampp/htdocs/fw.loc/app/controllers/UserController.php on line 40 | Файл /opt/lampp/htdocs/fw.loc/engine/core/base/Model.php | Строка 72
+ ================= 
+ [2018-10-09 17:36:42] | Текст ошибки: Argument 1 passed to engine\base\Model::validate() must be of the type array, null given, called in /opt/lampp/htdocs/fw.loc/app/controllers/UserController.php on line 40 | Файл /opt/lampp/htdocs/fw.loc/engine/core/base/Model.php | Строка 72
+ ================= 
+ [2018-10-09 17:36:47] | Текст ошибки: Argument 1 passed to engine\base\Model::validate() must be of the type array, null given, called in /opt/lampp/htdocs/fw.loc/app/controllers/UserController.php on line 40 | Файл /opt/lampp/htdocs/fw.loc/engine/core/base/Model.php | Строка 72
+ ================= 
+ [2018-10-10 16:32:43] | Текст ошибки: Страница не найдена | Файл /opt/lampp/htdocs/fw.loc/engine/core/Router.php | Строка 124
+ ================= 
+ [2018-10-10 17:15:32] | Текст ошибки: syntax error, unexpected '}' | Файл /opt/lampp/htdocs/fw.loc/app/controllers/UserController.php | Строка 54
+ ================= 
+ [2018-10-13 15:05:04] | Текст ошибки: <p>Не найден вид <b>/opt/lampp/htdocs/fw.loc/app/views/User/logout.php</b></p> | Файл /opt/lampp/htdocs/fw.loc/engine/core/base/View.php | Строка 116
+ ================= 
+ [2018-10-13 15:05:04] | Текст ошибки: Страница не найдена | Файл /opt/lampp/htdocs/fw.loc/engine/core/Router.php | Строка 124
+ ================= 
+ [2018-10-13 15:05:07] | Текст ошибки: Страница не найдена | Файл /opt/lampp/htdocs/fw.loc/engine/core/Router.php | Строка 124
+ ================= 
+ [2018-10-13 15:11:37] | Текст ошибки: <p>Не найден вид <b>/opt/lampp/htdocs/fw.loc/app/views/User/logout.php</b></p> | Файл /opt/lampp/htdocs/fw.loc/engine/core/base/View.php | Строка 116
+ ================= 
+ [2018-10-13 15:12:29] | Текст ошибки: <p>Не найден вид <b>/opt/lampp/htdocs/fw.loc/app/views/User/logout.php</b></p> | Файл /opt/lampp/htdocs/fw.loc/engine/core/base/View.php | Строка 116
+ ================= 
+ [2018-10-13 15:13:08] | Текст ошибки: <p>Не найден вид <b>/opt/lampp/htdocs/fw.loc/app/views/User/logout.php</b></p> | Файл /opt/lampp/htdocs/fw.loc/engine/core/base/View.php | Строка 116
+ ================= 
+ [2018-10-13 15:14:36] | Текст ошибки: <p>Не найден вид <b>/opt/lampp/htdocs/fw.loc/app/views/User/logout.php</b></p> | Файл /opt/lampp/htdocs/fw.loc/engine/core/base/View.php | Строка 116
+ ================= 
+ [2018-10-13 15:43:34] | Текст ошибки: Return value of app\models\User::login() must be of the type boolean, none returned | Файл /opt/lampp/htdocs/fw.loc/app/models/User.php | Строка 120
+ ================= 
+ [2018-10-13 15:52:45] | Текст ошибки: Return value of app\models\User::login() must be of the type boolean, none returned | Файл /opt/lampp/htdocs/fw.loc/app/models/User.php | Строка 122
+ ================= 
+ [2018-10-13 15:53:39] | Текст ошибки: Return value of app\models\User::login() must be of the type boolean, none returned | Файл /opt/lampp/htdocs/fw.loc/app/models/User.php | Строка 122
+ ================= 
+ [2018-10-13 16:04:17] | Текст ошибки: Страница не найдена | Файл /opt/lampp/htdocs/fw.loc/engine/core/Router.php | Строка 124
+ ================= 
+ [2018-10-13 16:25:52] | Текст ошибки: Страница не найдена | Файл /opt/lampp/htdocs/fw.loc/engine/core/Router.php | Строка 124
+ ================= 
+ [2018-10-13 16:25:52] | Текст ошибки: Страница не найдена | Файл /opt/lampp/htdocs/fw.loc/engine/core/Router.php | Строка 124
+ ================= 
+ [2018-10-13 16:25:55] | Текст ошибки: Страница не найдена | Файл /opt/lampp/htdocs/fw.loc/engine/core/Router.php | Строка 124
+ ================= 
+ [2018-10-13 16:26:09] | Текст ошибки: Страница не найдена | Файл /opt/lampp/htdocs/fw.loc/engine/core/Router.php | Строка 124
+ ================= 
+ [2018-10-13 16:27:01] | Текст ошибки: Страница не найдена | Файл /opt/lampp/htdocs/fw.loc/engine/core/Router.php | Строка 124
+ ================= 
+ [2018-10-13 16:30:15] | Текст ошибки: Class 'app\models\App' not found | Файл /opt/lampp/htdocs/fw.loc/app/models/User.php | Строка 92
+ ================= 
+ [2018-10-13 16:31:56] | Текст ошибки: Argument 2 passed to engine\libs\Cookie::set() must be of the type string, null given, called in /opt/lampp/htdocs/fw.loc/app/controllers/UserController.php on line 80 | Файл /opt/lampp/htdocs/fw.loc/engine/core/libs/Cookie.php | Строка 16
+ ================= 
+ [2018-10-13 17:09:53] | Текст ошибки: Контроллер <b>app\controllers\LoginController</b> не найден | Файл /opt/lampp/htdocs/fw.loc/engine/core/Router.php | Строка 121
+ ================= 
+ [2018-10-14 07:55:49] | Текст ошибки: Страница не найдена | Файл /opt/lampp/htdocs/fw.loc/engine/core/Router.php | Строка 124
+ ================= 
+ [2018-10-14 10:08:27] | Текст ошибки: Страница не найдена | Файл /opt/lampp/htdocs/fw.loc/engine/core/Router.php | Строка 124
+ ================= 
+ [2018-10-14 10:18:34] | Текст ошибки: Cannot use object of type stdClass as array | Файл /opt/lampp/htdocs/fw.loc/engine/core/libs/Breadcrumbs.php | Строка 35
+ ================= 
+ [2018-10-14 10:18:53] | Текст ошибки: Cannot use object of type stdClass as array | Файл /opt/lampp/htdocs/fw.loc/engine/core/libs/Breadcrumbs.php | Строка 35
+ ================= 
+ [2018-10-14 10:19:03] | Текст ошибки: Cannot use object of type stdClass as array | Файл /opt/lampp/htdocs/fw.loc/engine/core/libs/Breadcrumbs.php | Строка 35
+ ================= 
+ [2018-10-14 10:20:47] | Текст ошибки: Страница не найдена | Файл /opt/lampp/htdocs/fw.loc/engine/core/Router.php | Строка 124
+ ================= 
+ [2018-10-14 10:22:19] | Текст ошибки: Страница не найдена | Файл /opt/lampp/htdocs/fw.loc/engine/core/Router.php | Строка 124
+ ================= 
+ [2018-10-14 10:26:01] | Текст ошибки: Cannot use object of type engine\libs\Breadcrumbs as array | Файл /opt/lampp/htdocs/fw.loc/app/views/Main/index.php | Строка 1
+ ================= 
+ [2018-10-14 12:27:37] | Текст ошибки: syntax error, unexpected 'public' (T_PUBLIC) | Файл /opt/lampp/htdocs/fw.loc/app/models/Category.php | Строка 14
+ ================= 
+ [2018-10-14 12:40:02] | Текст ошибки: Cannot use object of type stdClass as array | Файл /opt/lampp/htdocs/fw.loc/app/models/Category.php | Строка 22
+ ================= 
+ [2018-10-14 14:25:13] | Текст ошибки: Argument 2 passed to app\models\Category::categoriesId() must be of the type integer, null given, called in /opt/lampp/htdocs/fw.loc/app/controllers/MainController.php on line 41 | Файл /opt/lampp/htdocs/fw.loc/app/models/Category.php | Строка 13
+ ================= 
+ [2018-10-14 15:21:37] | Текст ошибки: Страница не найдена | Файл /opt/lampp/htdocs/fw.loc/engine/core/Router.php | Строка 124
+ ================= 
+ [2018-10-14 15:21:37] | Текст ошибки: Страница не найдена | Файл /opt/lampp/htdocs/fw.loc/engine/core/Router.php | Строка 124
+ ================= 
+ [2018-10-14 15:21:40] | Текст ошибки: Страница не найдена | Файл /opt/lampp/htdocs/fw.loc/engine/core/Router.php | Строка 124
+ ================= 
+ [2018-10-14 15:28:09] | Текст ошибки: Страница не найдена | Файл /opt/lampp/htdocs/fw.loc/engine/core/Router.php | Строка 124
+ ================= 
+ [2018-10-14 15:28:34] | Текст ошибки: Страница не найдена | Файл /opt/lampp/htdocs/fw.loc/engine/core/Router.php | Строка 124
+ ================= 
+ [2018-10-14 15:30:10] | Текст ошибки: Страница не найдена | Файл /opt/lampp/htdocs/fw.loc/engine/core/Router.php | Строка 124
+ ================= 
+ [2018-10-14 15:30:23] | Текст ошибки: Страница не найдена | Файл /opt/lampp/htdocs/fw.loc/engine/core/Router.php | Строка 124
+ ================= 
+ [2018-10-14 15:37:48] | Текст ошибки: Страница не найдена | Файл /opt/lampp/htdocs/fw.loc/engine/core/Router.php | Строка 124
+ ================= 
+ [2018-10-14 15:37:55] | Текст ошибки: Страница не найдена | Файл /opt/lampp/htdocs/fw.loc/engine/core/Router.php | Строка 124
+ ================= 
+ [2018-10-14 15:39:21] | Текст ошибки: Страница не найдена | Файл /opt/lampp/htdocs/fw.loc/engine/core/Router.php | Строка 124
+ ================= 
+ [2018-10-14 15:40:05] | Текст ошибки: Страница не найдена | Файл /opt/lampp/htdocs/fw.loc/engine/core/Router.php | Строка 124
+ ================= 
+ [2018-10-14 15:40:21] | Текст ошибки: Страница не найдена | Файл /opt/lampp/htdocs/fw.loc/engine/core/Router.php | Строка 124
+ ================= 
+ [2018-10-15 15:58:41] | Текст ошибки: Страница не найдена | Файл /opt/lampp/htdocs/fw.loc/engine/core/Router.php | Строка 124
+ [2018-10-15 08:22:23] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 08:39:51] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 08:45:06] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 08:57:36] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 09:12:58] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 09:14:59] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 09:16:17] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 09:20:30] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 09:51:49] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 11:01:57] | Текст ошибки: Cannot use object of type stdClass as array | Файл E:\OSPanel\domains\fw.loc\app\controllers\ProductController.php | Строка 25
+ ================= 
+ [2018-10-15 11:01:57] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 11:02:08] | Текст ошибки: Cannot use object of type stdClass as array | Файл E:\OSPanel\domains\fw.loc\app\controllers\ProductController.php | Строка 25
+ ================= 
+ [2018-10-15 11:03:09] | Текст ошибки: Cannot use object of type stdClass as array | Файл E:\OSPanel\domains\fw.loc\app\controllers\ProductController.php | Строка 25
+ ================= 
+ [2018-10-15 11:03:09] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 11:03:10] | Текст ошибки: Cannot use object of type stdClass as array | Файл E:\OSPanel\domains\fw.loc\app\controllers\ProductController.php | Строка 25
+ ================= 
+ [2018-10-15 11:03:10] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 11:03:10] | Текст ошибки: Cannot use object of type stdClass as array | Файл E:\OSPanel\domains\fw.loc\app\controllers\ProductController.php | Строка 25
+ ================= 
+ [2018-10-15 11:03:10] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 11:03:10] | Текст ошибки: Cannot use object of type stdClass as array | Файл E:\OSPanel\domains\fw.loc\app\controllers\ProductController.php | Строка 25
+ ================= 
+ [2018-10-15 11:03:10] | Текст ошибки: Cannot use object of type stdClass as array | Файл E:\OSPanel\domains\fw.loc\app\controllers\ProductController.php | Строка 25
+ ================= 
+ [2018-10-15 11:03:11] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 11:05:04] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 11:37:00] | Текст ошибки: Too few arguments to function engine\libs\Breadcrumbs::__construct(), 2 passed in E:\OSPanel\domains\fw.loc\app\controllers\CategoryController.php on line 47 and exactly 4 expected | Файл E:\OSPanel\domains\fw.loc\engine\core\libs\Breadcrumbs.php | Строка 18
+ ================= 
+ [2018-10-15 11:37:42] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 11:37:49] | Текст ошибки: Too few arguments to function engine\libs\Breadcrumbs::__construct(), 2 passed in E:\OSPanel\domains\fw.loc\app\controllers\CategoryController.php on line 47 and exactly 4 expected | Файл E:\OSPanel\domains\fw.loc\engine\core\libs\Breadcrumbs.php | Строка 18
+ ================= 
+ [2018-10-15 11:38:18] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 11:58:40] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 12:47:39] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 12:48:10] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 12:56:43] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 13:27:30] | Текст ошибки: Too few arguments to function engine\libs\Common::catToTemplate(), 1 passed in E:\OSPanel\domains\fw.loc\engine\core\libs\Common.php on line 96 and exactly 3 expected | Файл E:\OSPanel\domains\fw.loc\engine\core\libs\Common.php | Строка 109
+ ================= 
+ [2018-10-15 13:28:39] | Текст ошибки: Using $this when not in object context | Файл E:\OSPanel\domains\fw.loc\app\widgets\menu\menu_tpl\menu.php | Строка 5
+ ================= 
+ [2018-10-15 13:34:35] | Текст ошибки: Using $this when not in object context | Файл E:\OSPanel\domains\fw.loc\app\widgets\comments\comments_tpl\comments.php | Строка 5
+ ================= 
+ [2018-10-15 14:00:32] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 14:02:02] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 14:48:11] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 14:48:17] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 14:48:20] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 14:48:26] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 14:48:38] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 14:48:46] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 14:52:01] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 14:52:02] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 14:52:03] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 14:52:45] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 14:52:45] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 14:52:45] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 14:52:45] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 14:52:47] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 14:52:48] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 14:52:50] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 14:56:08] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 14:56:08] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 14:56:08] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 14:56:08] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 14:56:08] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 14:56:09] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 15:00:50] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 15:00:50] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 15:00:50] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 15:00:50] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 15:01:07] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 15:01:07] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 15:01:07] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 15:01:07] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 15:01:10] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 15:01:10] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 15:01:10] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 15:01:10] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 15:01:17] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 15:01:17] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 15:01:18] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 15:01:53] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 15:01:53] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 15:01:53] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 15:01:53] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 15:01:57] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 15:01:57] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 15:01:59] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 15:05:00] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 15:05:00] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 15:05:00] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 15:05:00] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 15:08:32] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 15:08:32] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 15:08:32] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 15:08:32] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 15:08:57] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 15:08:57] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 15:08:57] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 15:08:57] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 15:10:23] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 15:10:23] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 15:10:23] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 15:10:23] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 15:10:26] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 15:10:26] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 15:10:26] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 15:10:26] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 15:12:03] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 15:12:03] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 15:12:03] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 15:12:03] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 15:12:36] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 15:12:36] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 15:12:36] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 15:12:36] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 15:13:41] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 15:13:50] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 15:13:56] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 15:16:39] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 15:16:39] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 15:16:41] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 15:16:43] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+<<<<<<< HEAD
+ 
+=======
+ [2018-10-15 15:56:41] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-15 16:02:03] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-16 08:28:21] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-16 08:38:18] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-16 08:38:18] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-16 09:01:30] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-16 09:01:31] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-16 09:03:57] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-16 09:04:10] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-16 09:18:25] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-16 09:18:35] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-16 09:23:59] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-16 09:59:04] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-16 09:59:25] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-16 11:43:51] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-16 11:48:54] | Текст ошибки: Class 'app\controllers\View' not found | Файл E:\OSPanel\domains\fw.loc\app\controllers\ProductController.php | Строка 20
+ ================= 
+ [2018-10-16 11:49:41] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ 
+>>>>>>> bbd6412711df3cd55654d2f43e3d4c1c483528ac
+[2018-10-17 08:38:46] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-17 08:39:44] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-17 09:57:57] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\fw.loc\engine\core\Router.php | Строка 124
+ ================= 
+ [2018-10-17 10:14:30] | Текст ошибки: Class 'app\controllers\App' not found | Файл E:\OSPanel\domains\fw.loc\app\controllers\ProductController.php | Строка 42
+ ================= 
+ [2018-10-17 10:27:12] | Текст ошибки: Class 'app\controllers\App' not found | Файл E:\OSPanel\domains\fw.loc\app\controllers\ProductController.php | Строка 44
+ ================= 
+ [2018-10-17 11:15:31] | Текст ошибки: Cannot use object of type stdClass as array | Файл E:\OSPanel\domains\fw.loc\app\controllers\ProductController.php | Строка 32
+ ================= 
+ [2018-10-17 11:15:36] | Текст ошибки: Cannot use object of type stdClass as array | Файл E:\OSPanel\domains\fw.loc\app\controllers\ProductController.php | Строка 32
+ ================= 
+ [2018-10-17 11:57:27] | Текст ошибки: Call to a member function lastInsertId() on null | Файл E:\OSPanel\domains\fw.loc\app\controllers\ProductController.php | Строка 54
+ ================= 
+ [2018-10-17 12:27:31] | Текст ошибки: Cannot use object of type stdClass as array | Файл E:\OSPanel\domains\fw.loc\app\controllers\ProductController.php | Строка 60
+ ================= 
+ [2018-10-19 17:39:05] | Текст ошибки: Call to undefined function app\controllers\getAllByCategoryId() | Файл /opt/lampp/htdocs/fw.loc/app/controllers/CategoryController.php | Строка 52
+ ================= 
+ [2018-10-19 17:39:37] | Текст ошибки: Страница не найдена | Файл /opt/lampp/htdocs/fw.loc/engine/core/Router.php | Строка 124
+ ================= 
+ [2018-10-19 17:42:04] | Текст ошибки: Too few arguments to function app\models\Product::getAllByIds(), 1 passed in /opt/lampp/htdocs/fw.loc/app/controllers/CategoryController.php on line 43 and exactly 3 expected | Файл /opt/lampp/htdocs/fw.loc/app/models/Product.php | Строка 27
+ ================= 
+ [2018-10-19 17:42:04] | Текст ошибки: Страница не найдена | Файл /opt/lampp/htdocs/fw.loc/engine/core/Router.php | Строка 124
+ ================= 
+ [2018-10-19 17:43:11] | Текст ошибки: Too few arguments to function app\models\Product::getAllByIds(), 1 passed in /opt/lampp/htdocs/fw.loc/app/controllers/CategoryController.php on line 43 and exactly 3 expected | Файл /opt/lampp/htdocs/fw.loc/app/models/Product.php | Строка 27
+ ================= 
+ [2018-10-19 17:43:14] | Текст ошибки: Too few arguments to function app\models\Product::getAllByIds(), 1 passed in /opt/lampp/htdocs/fw.loc/app/controllers/CategoryController.php on line 43 and exactly 3 expected | Файл /opt/lampp/htdocs/fw.loc/app/models/Product.php | Строка 27
+ ================= 
+ [2018-10-19 17:43:14] | Текст ошибки: Страница не найдена | Файл /opt/lampp/htdocs/fw.loc/engine/core/Router.php | Строка 124
+ ================= 
+ [2018-10-19 17:44:02] | Текст ошибки: Страница не найдена | Файл /opt/lampp/htdocs/fw.loc/engine/core/Router.php | Строка 124
+ ================= 
+ [2018-10-19 17:47:13] | Текст ошибки: Страница не найдена | Файл /opt/lampp/htdocs/fw.loc/engine/core/Router.php | Строка 124
+ ================= 
+ [2018-10-20 07:49:50] | Текст ошибки: Страница не найдена | Файл /opt/lampp/htdocs/fw.loc/engine/core/Router.php | Строка 124
+ ================= 
+ [2018-10-20 08:12:38] | Текст ошибки: Страница не найдена | Файл /opt/lampp/htdocs/fw.loc/engine/core/Router.php | Строка 124
+ ================= 
+ [2018-10-20 08:12:42] | Текст ошибки: Call to undefined method app\models\Category::categoriesId() | Файл /opt/lampp/htdocs/fw.loc/app/models/Category.php | Строка 34
+ ================= 
+ [2018-10-20 08:13:20] | Текст ошибки: Страница не найдена | Файл /opt/lampp/htdocs/fw.loc/engine/core/Router.php | Строка 124
+ ================= 
+ [2018-10-20 08:13:28] | Текст ошибки: Call to undefined method app\models\Category::categoriesId() | Файл /opt/lampp/htdocs/fw.loc/app/models/Category.php | Строка 34
+ ================= 
+ [2018-10-20 08:21:36] | Текст ошибки: Страница не найдена | Файл /opt/lampp/htdocs/fw.loc/engine/core/Router.php | Строка 124
+ ================= 
+ [2018-10-20 08:25:23] | Текст ошибки: Return value of app\models\Product::getOneById() must be of the type array, object returned | Файл /opt/lampp/htdocs/fw.loc/app/models/Product.php | Строка 24
+ ================= 
+ [2018-10-20 08:26:03] | Текст ошибки: Return value of app\models\Product::getOneById() must be an instance of app\models\Product, instance of stdClass returned | Файл /opt/lampp/htdocs/fw.loc/app/models/Product.php | Строка 24
+ ================= 
+ [2018-10-20 11:29:00] | Текст ошибки: Страница не найдена | Файл /opt/lampp/htdocs/fw.loc/engine/core/Router.php | Строка 124
+ ================= 
+ 
