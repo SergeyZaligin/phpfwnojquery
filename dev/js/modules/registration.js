@@ -23,9 +23,7 @@
         }
     }
     
-    FormHandler.prototype.validationSignupForm = function (selector, obj) {
-        
-    }
+
     
     
    

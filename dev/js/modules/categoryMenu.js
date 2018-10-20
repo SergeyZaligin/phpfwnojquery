@@ -15,7 +15,7 @@
      * @param {Object} selector
      * @returns {registrationL#1.FormHandler}
      */
-    function CategoryMenu(selector) {
+    function CategoryMenu (selector) {
         if (!selector) {
             throw new Error('No selector provided');
         } else {
@@ -23,7 +23,7 @@
         }
     }
     
-    CategoryMenu.prototype.init = () => {
+    CategoryMenu.prototype.init = function () {
         console.log('Category menu', this.selector);
     }
     
