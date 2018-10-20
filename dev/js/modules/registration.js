@@ -1,4 +1,4 @@
-(function(global){
+(global => {
     'use strict';
    
     
@@ -7,18 +7,9 @@
      * 
      * @type object |global.App|global.App
      */
-    var App = global.App || {};
+    const App = global.App || {};
     
-    const LibsInit = new App.LibsInit;
-    
-    /**
-     * Object jQuery
-     * 
-     * @type global.jQuery
-     */
-    var $ = global.jQuery;
-    
-    
+    //const LibsInit = new App.LibsInit;
     
     /**
      * Constructor handler form signup
@@ -30,16 +21,13 @@
         if (!selector) {
             throw new Error('No selector provided');
         }
-        
-        this.$formElement = $(selector);
-
     }
     
     FormHandler.prototype.validationSignupForm = function (selector, obj) {
         
-        $(selector).validate(obj);
-        
     }
+    
+    
    
     App.FormHandler = FormHandler;
     global.App = App;
