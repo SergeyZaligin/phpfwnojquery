@@ -3,7 +3,7 @@
     
     /*beginConstants*/
     const FORM_SIGNUP_SELECTOR = '#signup-form';
-    const ACCORDION_SELECTOR = '.category-list';
+    const CATEGORY_MENU_SELECTOR = '.category-list';
     const JQUERY_UI_DIALOG_SELECTOR = '#form-wrapp';
     /*endConstants*/
 
@@ -42,11 +42,14 @@
 //    }
     /*endCommonFunction*/
 
+    /*beginCategoryMenu*/
+    const CategoryMenu = new App.CategoryMenu(CATEGORY_MENU_SELECTOR);
+    CategoryMenu.init();
+    /*endCategoryMenu*/
+
     /*beginSignupFormHandler*/
-    
     /*endSignupFormHandler*/
-
-
+    
     /*beginLibsInit*/
     //const LibsInit = new App.LibsInit();
    
