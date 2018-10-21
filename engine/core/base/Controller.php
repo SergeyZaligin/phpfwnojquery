@@ -124,7 +124,8 @@ abstract class Controller
         //extract($vars);
         $data = $vars;
         $this->layout = false;
-        require_once APP . "/views/{$admin}{$this->route['controller']}/{$view}.php";
         
+        require_once APP . "/views/{$admin}{$this->route['controller']}/{$view}.php";
+        header('Content-Type: application/json');
     }
 }

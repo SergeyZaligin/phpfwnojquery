@@ -22,7 +22,7 @@ class UserController extends AppController
             $userModel = new User();
             $contentType = isset($_SERVER["CONTENT_TYPE"]) ? trim($_SERVER["CONTENT_TYPE"]) : '';
             if ($contentType === "application/json") {
-                echo 'AJAX!!!';
+                
                 //Receive the RAW post data.
                 $content = trim(file_get_contents("php://input"));
 
@@ -49,31 +49,7 @@ class UserController extends AppController
                     
               }
             
-            if($this->isAjax()) {
-                
-                $data = App::$app->request->post;
-                $userModel->load($data);
-                
-                if (!$userModel->validate($data) || !$userModel->checkUnique()){
-                    $status = "=====Error validation=====";
-                    $this->loadView('ajaxSignup', $status);
-                }else{
-                    $status = "=====Success validation=====";
-                    $userModel->attributes['password'] = password_hash($userModel->attributes['password'], PASSWORD_DEFAULT);
             
-                    if ($userModel->attributes['role'] === 'admin') {
-                        $userModel->attributes['role'] = 'register';
-                    }
-
-                    if ($userModel->insert($userModel->attributes['login'], $userModel->attributes['email'], $userModel->attributes['password'], $userModel->attributes['role'] )) {
-                        $this->loadView('ajaxSignup', $status);
-                    } else {
-                        $_SESSION['validate_errors'] = 'Ошибка при регистрации! ';
-                    }
-                }
-                    
-                
-            }
             
     }
         

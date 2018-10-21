@@ -14,32 +14,6 @@
     console.log('App===>', App);
 
     /*beginCommonFunction*/
-    
-    
-        
-
-//    function ajax($formData, method, url, $result) {
-//        
-//        var msg = $($formData).serialize();
-//
-//        $.ajax({
-//            type: method,
-//            url: url,
-//            data: msg,
-//            success: function (res) {
-//                
-//                $($result).html(res);
-//                //if ($("#results").val() == "SUCCESS VALIDATION") {
-//                //    addData();
-//                //}
-//                //console.log(data);
-//            },
-//            error: function (xhr, str) {
-//                alert("Возникла ошибка!");
-//            }
-//        });
-//
-//    }
     /*endCommonFunction*/
 
     /*beginCategoryMenu*/
@@ -53,16 +27,6 @@
     /*endSignupFormHandler*/
     
     /*beginLibsInit*/
-    //const LibsInit = new App.SignupHandler();
-   
     /*endLibsInit*/
-    
-    
-    
-//    parentItems.addEventListener('click', function (e) {
-//        e.preventDefault();
-//    });
-    
-    
-
+  
 })(window);

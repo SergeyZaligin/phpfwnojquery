@@ -1,7 +1,6 @@
 (global => {
     'use strict';
    
-    
     /**
      * Object App
      * 
@@ -28,7 +27,7 @@
         this.selector.addEventListener('submit', e => {
             e.preventDefault();
             const formEntries = new FormData(this.selector).entries();
-            const dataForm = Object.assign(...Array.from(formEntries, ([x,y]) => ({[x]:y})));
+            const dataForm = JSON.stringify(Object.assign(...Array.from(formEntries, ([x,y]) => ({[x]:y}))));
             
             fetch('/user/signup', {
                method: "post",
@@ -36,20 +35,16 @@
                    "Accept": 'application/json, text/plain, */*',
                    "Content-Type": "application/json"
                },
-               body: JSON.stringify(dataForm)
+               body: dataForm
             }).then(function(res) {  
-                    console.log('Request succeeded with JSON response', res.json());  
+                    return res.text();  
                 }).then(function(data){
                     console.log(data);
                 });
-            //console.log(da);
-            
         });
         
     };
     
-    
-   
     App.SignupHandler = SignupHandler;
     global.App = App;
     
