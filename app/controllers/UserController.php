@@ -20,9 +20,37 @@ class UserController extends AppController
         View::setMeta("Регистрация", "Регистрация", "Регистрация");
         
             $userModel = new User();
-            echo 'ajax!!!';
+            $contentType = isset($_SERVER["CONTENT_TYPE"]) ? trim($_SERVER["CONTENT_TYPE"]) : '';
+            if ($contentType === "application/json") {
+                echo 'AJAX!!!';
+                //Receive the RAW post data.
+                $content = trim(file_get_contents("php://input"));
+
+                $decoded = json_decode($content, true);
+                $userModel->load($decoded);
+                
+                if (!$userModel->validate($decoded) || !$userModel->checkUnique()){
+                    $status = "=====Error validation=====";
+                    $this->loadView('ajaxSignup', $status);
+                }else{
+                    $status = "=====Success validation=====";
+                    $userModel->attributes['password'] = password_hash($userModel->attributes['password'], PASSWORD_DEFAULT);
+            
+                    if ($userModel->attributes['role'] === 'admin') {
+                        $userModel->attributes['role'] = 'register';
+                    }
+
+                    if ($userModel->insert($userModel->attributes['login'], $userModel->attributes['email'], $userModel->attributes['password'], $userModel->attributes['role'] )) {
+                        $this->loadView('ajaxSignup', $status);
+                    } else {
+                        $_SESSION['validate_errors'] = 'Ошибка при регистрации! ';
+                    }
+                }
+                    
+              }
+            
             if($this->isAjax()) {
-                echo 'ajax';
+                
                 $data = App::$app->request->post;
                 $userModel->load($data);
                 

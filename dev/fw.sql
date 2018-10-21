@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.7.7
+-- version 4.8.1
 -- https://www.phpmyadmin.net/
 --
--- Хост: 127.0.0.1:3306
--- Время создания: Окт 15 2018 г., 12:22
--- Версия сервера: 5.7.20
--- Версия PHP: 7.2.0
+-- Host: localhost
+-- Generation Time: Oct 21, 2018 at 01:14 PM
+-- Server version: 10.1.33-MariaDB
+-- PHP Version: 7.2.6
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -19,13 +19,13 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- База данных: `fw`
+-- Database: `fw`
 --
 
 -- --------------------------------------------------------
 
 --
--- Структура таблицы `categories`
+-- Table structure for table `categories`
 --
 
 CREATE TABLE `categories` (
@@ -35,7 +35,7 @@ CREATE TABLE `categories` (
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 --
--- Дамп данных таблицы `categories`
+-- Dumping data for table `categories`
 --
 
 INSERT INTO `categories` (`id`, `title`, `parent`) VALUES
@@ -79,7 +79,7 @@ INSERT INTO `categories` (`id`, `title`, `parent`) VALUES
 -- --------------------------------------------------------
 
 --
--- Структура таблицы `comments`
+-- Table structure for table `comments`
 --
 
 CREATE TABLE `comments` (
@@ -94,21 +94,22 @@ CREATE TABLE `comments` (
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 --
--- Дамп данных таблицы `comments`
+-- Dumping data for table `comments`
 --
 
 INSERT INTO `comments` (`comment_id`, `comment_author`, `comment_text`, `parent`, `comment_product`, `approved`, `created`, `is_admin`) VALUES
-(1, 'Андрей', 'Привет, мир!', 0, 10875, '1', '2013-12-01 07:24:31', 0),
-(2, 'Валерия', 'Товар подошел', 0, 10875, '1', '2013-12-03 11:25:05', 0),
-(3, 'Менджер', 'Отлично!\r\nОбращайтесь еще :)', 2, 10875, '1', '2013-12-04 11:26:02', 1),
-(4, '<h1>Просто покупатель</h1>', 'Оччччччччеееееееееееееееееенннннннннннннннььььььььдлииииииииииииииннннннныйййййййййййййтееееееееееккккккккккккссссссссссссссстттттттттттттттттттт', 0, 10875, '0', '2013-12-17 11:26:34', 0),
-(5, 'Валерия', 'Спасибо)', 3, 10875, '1', '2013-12-31 11:27:15', 0),
-(6, 'Конкурент', 'Тестовый коммент', 0, 11608, '1', '2013-12-31 11:28:17', 0);
+(1, 'Андрей', 'Привет, мир!', 0, 10875, '1', '2013-12-01 06:24:31', 0),
+(2, 'Валерия', 'Товар подошел', 0, 10875, '1', '2013-12-03 10:25:05', 0),
+(3, 'Менджер', 'Отлично!\r\nОбращайтесь еще :)', 2, 10875, '1', '2013-12-04 10:26:02', 1),
+(5, 'Валерия', 'Спасибо)', 3, 10875, '1', '2013-12-31 10:27:15', 0),
+(6, 'Конкурент', 'Тестовый коммент', 0, 11608, '1', '2013-12-31 10:28:17', 0),
+(12, 'Anton', 'cvffgf', 5, 10875, '0', '2018-10-20 12:38:05', 0),
+(11, 'Anton', 'hi', 1, 10875, '0', '2018-10-20 12:36:34', 0);
 
 -- --------------------------------------------------------
 
 --
--- Структура таблицы `pages`
+-- Table structure for table `pages`
 --
 
 CREATE TABLE `pages` (
@@ -122,7 +123,7 @@ CREATE TABLE `pages` (
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 --
--- Дамп данных таблицы `pages`
+-- Dumping data for table `pages`
 --
 
 INSERT INTO `pages` (`page_id`, `title`, `alias`, `description`, `keywords`, `text`, `position`) VALUES
@@ -133,7 +134,7 @@ INSERT INTO `pages` (`page_id`, `title`, `alias`, `description`, `keywords`, `te
 -- --------------------------------------------------------
 
 --
--- Структура таблицы `products`
+-- Table structure for table `products`
 --
 
 CREATE TABLE `products` (
@@ -147,7 +148,7 @@ CREATE TABLE `products` (
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 --
--- Дамп данных таблицы `products`
+-- Dumping data for table `products`
 --
 
 INSERT INTO `products` (`id`, `title`, `alias`, `parent`, `content`, `image`, `price`) VALUES
@@ -960,63 +961,97 @@ INSERT INTO `products` (`id`, `title`, `alias`, `parent`, `content`, `image`, `p
 (13477, 'Чехол на iPhone 5 Lamborghini Genuine Leather Back Cover & Carbon Fiber (black) \"Aventador\"', 'chehol-na-iphone-5-lamborghini-genuine-leather-back-cover-carbon-fiber-black-aventador', 895, '', 'empty_thumb.jpg', 31),
 (13478, 'Чехол на iPhone 5 Lamborghini Genuine Leather Back Cover & Carbon Fiber (white) \"Aventador\"', 'chehol-na-iphone-5-lamborghini-genuine-leather-back-cover-carbon-fiber-white-aventador', 895, '', 'empty_thumb.jpg', 31);
 
+-- --------------------------------------------------------
+
 --
--- Индексы сохранённых таблиц
+-- Table structure for table `user`
+--
+
+CREATE TABLE `user` (
+  `id` int(11) NOT NULL,
+  `login` varchar(255) NOT NULL,
+  `password` varchar(255) NOT NULL,
+  `role` set('admin','register','','') NOT NULL,
+  `email` varchar(255) NOT NULL,
+  `ban` enum('0','1','','') NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `user`
+--
+
+INSERT INTO `user` (`id`, `login`, `password`, `role`, `email`, `ban`) VALUES
+(1, 'suslik', '$2y$10$tsY1epKZjYY91cbdRbh8k.9wy7OaH0iZeQz9UuEZipLZzwx/IWpKu', 'register', 'serg1385@bk.ru', '0');
+
+--
+-- Indexes for dumped tables
 --
 
 --
--- Индексы таблицы `categories`
+-- Indexes for table `categories`
 --
 ALTER TABLE `categories`
   ADD PRIMARY KEY (`id`);
 
 --
--- Индексы таблицы `comments`
+-- Indexes for table `comments`
 --
 ALTER TABLE `comments`
   ADD PRIMARY KEY (`comment_id`);
 
 --
--- Индексы таблицы `pages`
+-- Indexes for table `pages`
 --
 ALTER TABLE `pages`
   ADD PRIMARY KEY (`page_id`),
   ADD UNIQUE KEY `alias` (`alias`);
 
 --
--- Индексы таблицы `products`
+-- Indexes for table `products`
 --
 ALTER TABLE `products`
   ADD PRIMARY KEY (`id`),
   ADD UNIQUE KEY `alias` (`alias`);
 
 --
--- AUTO_INCREMENT для сохранённых таблиц
+-- Indexes for table `user`
+--
+ALTER TABLE `user`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- AUTO_INCREMENT for dumped tables
 --
 
 --
--- AUTO_INCREMENT для таблицы `categories`
+-- AUTO_INCREMENT for table `categories`
 --
 ALTER TABLE `categories`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=896;
 
 --
--- AUTO_INCREMENT для таблицы `comments`
+-- AUTO_INCREMENT for table `comments`
 --
 ALTER TABLE `comments`
-  MODIFY `comment_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `comment_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 
 --
--- AUTO_INCREMENT для таблицы `pages`
+-- AUTO_INCREMENT for table `pages`
 --
 ALTER TABLE `pages`
   MODIFY `page_id` tinyint(3) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
--- AUTO_INCREMENT для таблицы `products`
+-- AUTO_INCREMENT for table `products`
 --
 ALTER TABLE `products`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13612;
+
+--
+-- AUTO_INCREMENT for table `user`
+--
+ALTER TABLE `user`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

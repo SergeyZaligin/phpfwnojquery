@@ -813,4 +813,8 @@
  ================= 
  [2018-10-21 11:53:27] | Текст ошибки: Страница не найдена | Файл /opt/lampp/htdocs/fwnjq.loc/engine/core/Router.php | Строка 124
  ================= 
+ [2018-10-21 13:07:14] | Текст ошибки: Argument 1 passed to engine\base\Model::load() must be of the type array, null given, called in /opt/lampp/htdocs/fwnjq.loc/app/controllers/UserController.php on line 30 | Файл /opt/lampp/htdocs/fwnjq.loc/engine/core/base/Model.php | Строка 57
+ ================= 
+ [2018-10-21 13:08:06] | Текст ошибки: Argument 1 passed to engine\base\Model::validate() must be of the type array, null given, called in /opt/lampp/htdocs/fwnjq.loc/app/controllers/UserController.php on line 32 | Файл /opt/lampp/htdocs/fwnjq.loc/engine/core/base/Model.php | Строка 72
+ ================= 
  
