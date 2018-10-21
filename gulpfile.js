@@ -39,6 +39,7 @@ gulp.task('js', function() {
         "dev/js/main.js"
      ])
     .pipe(babel({
+        
         presets: ['@babel/env']
     }))
     .pipe(concat('main.js'))

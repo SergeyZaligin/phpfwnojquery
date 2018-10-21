@@ -28,7 +28,7 @@
             e.preventDefault();
             const formEntries = new FormData(this.selector).entries();
             const dataForm = JSON.stringify(Object.assign(...Array.from(formEntries, ([x,y]) => ({[x]:y}))));
-            
+ 
             fetch('/user/signup', {
                method: "post",
                headers: {
