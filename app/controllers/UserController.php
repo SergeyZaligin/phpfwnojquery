@@ -20,8 +20,9 @@ class UserController extends AppController
         View::setMeta("Регистрация", "Регистрация", "Регистрация");
         
             $userModel = new User();
+            echo 'ajax!!!';
             if($this->isAjax()) {
-                
+                echo 'ajax';
                 $data = App::$app->request->post;
                 $userModel->load($data);
                 

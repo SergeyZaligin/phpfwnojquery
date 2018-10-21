@@ -31,8 +31,15 @@
             const json = Object.assign(...Array.from(formEntries, ([x,y]) => ({[x]:y})));
             fetch('/user/signup', {
                 method: 'POST',
+                headers: {  
+                  "Content-type": "application/x-www-form-urlencoded; charset=UTF-8"  
+                }, 
                 body: JSON.stringify(json)
-            });
+            }).then(function(data) {  
+                    console.log('Request succeeded with JSON response', data);  
+                }).catch(function(error) {  
+                    console.log('Request failed', error);  
+                });
             console.log(json);
             
         });
