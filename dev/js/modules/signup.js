@@ -23,25 +23,29 @@
     }
     
     SignupHandler.prototype.init = function () {
+        if (this.selector) {
+            this.selector.addEventListener('submit', e => {
+                e.preventDefault();
+                const formEntries = new FormData(this.selector).entries();
+                const dataForm = JSON.stringify(Object.assign(...Array.from(formEntries, ([x,y]) => ({[x]:y}))));
+
+                fetch('/user/signup', {
+                   method: "post",
+                   headers: {
+                       "Accept": 'application/json, text/plain, */*',
+                       "Content-Type": "application/json"
+                   },
+                   body: dataForm
+                }).then(function(res) {  
+                        return res.text();  
+                    }).then(function(data){
+                        console.log(data);
+                    });
+            });
+        } else {
+            return false;
+        }
         
-        this.selector.addEventListener('submit', e => {
-            e.preventDefault();
-            const formEntries = new FormData(this.selector).entries();
-            const dataForm = JSON.stringify(Object.assign(...Array.from(formEntries, ([x,y]) => ({[x]:y}))));
- 
-            fetch('/user/signup', {
-               method: "post",
-               headers: {
-                   "Accept": 'application/json, text/plain, */*',
-                   "Content-Type": "application/json"
-               },
-               body: dataForm
-            }).then(function(res) {  
-                    return res.text();  
-                }).then(function(data){
-                    console.log(data);
-                });
-        });
         
     };
     
