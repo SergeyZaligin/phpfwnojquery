@@ -2,6 +2,9 @@
     li>ul{
         display: none;
     }
+    li>a.active+ul {
+        display: block;
+    }
 }
 
 
