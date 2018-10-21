@@ -11,7 +11,7 @@
   
   <?=View::getMeta(); ?>
 
-  <link rel="stylesheet" href="/css/main.min.css">
+  <link rel="preload" rel="preload" href="/css/main.min.css" as="style" onload="this.rel='stylesheet'">
 </head>
 <body>
     <div class="wrapper">
