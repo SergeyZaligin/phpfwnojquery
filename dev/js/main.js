@@ -48,15 +48,16 @@
     /*endCategoryMenu*/
 
     /*beginSignupFormHandler*/
+    const SignupHandler = new App.SignupHandler(FORM_SIGNUP_SELECTOR);
+    SignupHandler.init();
     /*endSignupFormHandler*/
     
     /*beginLibsInit*/
-    //const LibsInit = new App.LibsInit();
+    //const LibsInit = new App.SignupHandler();
    
     /*endLibsInit*/
     
-    const categoryList = document.querySelector('.category-nav .category-list');
-    const parentItems = document.querySelectorAll('.category-nav .category-list .parent-item');
+    
     
 //    parentItems.addEventListener('click', function (e) {
 //        e.preventDefault();

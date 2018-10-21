@@ -4,7 +4,7 @@
         opacity: 0;
         max-height: 0;
         overflow: hidden;
-        transition: opacity .2s, max-height .2s;
+        transition: opacity .3s ease, max-height .3s ease;
     }
     li>a.active+ul {
         max-height: 100%;

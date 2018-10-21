@@ -35,7 +35,7 @@ gulp.task('js', function() {
   return gulp
     .src([
         "dev/js/modules/categoryMenu.js",
-        "dev/js/modules/registration.js",
+        "dev/js/modules/signup.js",
         "dev/js/main.js"
      ])
     .pipe(babel({
