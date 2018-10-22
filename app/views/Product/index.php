@@ -12,7 +12,7 @@
     <?php endif; ?>
 <?php endif; ?>
     
-<button class="comment-open-btn">Добавить отзыв:</button>
+<button class="modal__preview-btn">Добавить отзыв:</button>
 <div id="form-wrapp">
     <form class="form" method="post">
         <div>

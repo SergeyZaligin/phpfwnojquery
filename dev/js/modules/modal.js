@@ -3,7 +3,7 @@
    
     const App = global.App || {};
     
-    function Review (selector) {
+    function Modal (selector) {
         if (!selector) {
             throw new Error('No selector provided');
         } else {
@@ -11,10 +11,10 @@
         }
     };
     
-    Review.prototype.init = function () {
-        const formBtn = document.querySelector('.comment-open-btn');
+    Modal.prototype.init = function () {
+        
             
-            formBtn.addEventListener('click', function (e) {
+            this.selector.addEventListener('click', function (e) {
 console.log('click');
                 
 //                 var parent = $(this).attr('data');
@@ -32,7 +32,7 @@ console.log('click');
         
     };
     
-    App.Review = Review;
+    App.Modal = Modal;
     global.App = App;
     
 })(window);

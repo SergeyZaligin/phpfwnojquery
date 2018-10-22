@@ -4,7 +4,7 @@
     /*beginConstants*/
     const FORM_SIGNUP_SELECTOR = '#signup-form';
     const CATEGORY_MENU_SELECTOR = '.category-list';
-    const REVIEW_SELECTOR = '#form-wrapp';
+    const REVIEW_SELECTOR = '.modal__preview-btn';
     /*endConstants*/
 
     /*beginGlobals*/
@@ -27,8 +27,8 @@
     /*endSignupFormHandler*/
     
     /*beginReview*/
-    const Review = new App.Review(REVIEW_SELECTOR);
-    Review.init();
+    const Modal = new App.Modal(REVIEW_SELECTOR);
+    Modal.init();
     /*endReview*/
   
 })(window);
