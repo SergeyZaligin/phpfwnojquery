@@ -13,7 +13,7 @@
 <?php endif; ?>
     
 <button class="modal__preview-btn">Добавить отзыв:</button>
-<div id="form-wrapp">
+<div id="review-form">
     <form class="form" method="post">
         <div>
             <label for="comment_author">Имя</label> <br>
