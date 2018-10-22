@@ -14,7 +14,7 @@
     Review.prototype.init = function () {
         
         if (this.selector) {
-           
+           console.log('Review start!');
         } else {
             return false;
         }

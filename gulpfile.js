@@ -34,6 +34,7 @@ gulp.task("scss", function () {
 gulp.task('js', function() {
   return gulp
     .src([
+        "dev/js/modules/review.js",
         "dev/js/modules/categoryMenu.js",
         "dev/js/modules/signup.js",
         "dev/js/main.js"

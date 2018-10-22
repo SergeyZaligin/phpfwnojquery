@@ -4,7 +4,7 @@
     /*beginConstants*/
     const FORM_SIGNUP_SELECTOR = '#signup-form';
     const CATEGORY_MENU_SELECTOR = '.category-list';
-    const JQUERY_UI_DIALOG_SELECTOR = '#form-wrapp';
+    const REVIEW_SELECTOR = '#form-wrapp';
     /*endConstants*/
 
     /*beginGlobals*/
@@ -26,7 +26,9 @@
     SignupHandler.init();
     /*endSignupFormHandler*/
     
-    /*beginLibsInit*/
-    /*endLibsInit*/
+    /*beginReview*/
+    const Review = new App.Review(REVIEW_SELECTOR);
+    Review.init();
+    /*endReview*/
   
 })(window);
