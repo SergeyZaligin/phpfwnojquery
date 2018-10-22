@@ -3,7 +3,6 @@
         <div class="comment-meta">
             <span><?=h($item['comment_author']); ?></span>
             <span><?=h($item['created']); ?></span>
-            
         </div>
         <div class="comment-text">
             <p><?= nl2br(h($item['comment_text'])); ?></p>

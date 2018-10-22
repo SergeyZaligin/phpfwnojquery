@@ -9,17 +9,28 @@
         } else {
             this.selector = document.querySelector(selector);
         }
-    }
+    };
     
     Review.prototype.init = function () {
+        const formBtn = document.querySelector('.comment-open-btn');
+            
+            formBtn.addEventListener('click', function (e) {
+console.log('click');
+                
+//                 var parent = $(this).attr('data');
+//
+//                 if (!parseInt(parent)) {
+//                     parent = 0;
+//                 }
+//
+//                 $('input[name="parent"]').attr('value', parent);
+//
+//                 $(selector).dialog('open');
+
+             });
         
-        if (this.selector) {
-           console.log('Review start!');
-        } else {
-            return false;
-        }
         
-    }
+    };
     
     App.Review = Review;
     global.App = App;
