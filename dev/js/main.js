@@ -39,6 +39,8 @@
     Review.init();
     /*endReview*/
     
-    $('a').hide().show('inline-block');
-    
+    $('a').on('click', function() {
+        console.log('click');
+    });
+    $('a').on('click');
 })(window);
