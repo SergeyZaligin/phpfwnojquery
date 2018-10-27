@@ -15,6 +15,8 @@
     console.log('App===>', App);
 
     /*beginCommonFunction*/
+    const $ = App.$;
+    //console.log($);
     /*endCommonFunction*/
 
     /*beginCategoryMenu*/
@@ -36,5 +38,7 @@
     const Review = new App.Modal(REVIEW_SELECTOR);
     Review.init();
     /*endReview*/
-  
+    
+    $('a').hide().show('inline-block');
+    
 })(window);

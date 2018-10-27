@@ -13,6 +13,9 @@
 <?php endif; ?>
     
 <button class="modal__preview-btn">Добавить отзыв:</button>
+<div class="modal__review">
+    modal
+</div>
 <div id="review-form">
     <form class="form" method="post">
         <div>
@@ -25,5 +28,6 @@
         </div>
         <input type="hidden" name="parent" id="parent" value="0">
         <input type="hidden" name="productId" value="<?=(int)$product->id; ?>">
+        <input type="submit" name="submit" value="Добавить отзыв">
     </form>
 </div>
