@@ -12,23 +12,27 @@
     };
     
     Modal.prototype.init = function () {
-        
-            
+        if (this.selector) {
             this.selector.addEventListener('click', function (e) {
-console.log('click');
-                
-//                 var parent = $(this).attr('data');
-//
-//                 if (!parseInt(parent)) {
-//                     parent = 0;
-//                 }
-//
-//                 $('input[name="parent"]').attr('value', parent);
-//
-//                 $(selector).dialog('open');
+                console.log('click');
 
-             });
-        
+                //                 var parent = $(this).attr('data');
+                //
+                //                 if (!parseInt(parent)) {
+                //                     parent = 0;
+                //                 }
+                //
+                //                 $('input[name="parent"]').attr('value', parent);
+                //
+                //                 $(selector).dialog('open');
+
+                             });
+
+        } else {
+            return false;
+        }
+            
+                    
         
     };
     

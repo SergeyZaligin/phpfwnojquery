@@ -39,8 +39,8 @@
     Review.init();
     /*endReview*/
     
-    $('a').on('click', function() {
-        console.log('click');
+    $('#left-sidebar').on('click', function() {
+        $(this).hide();
     });
-    $('a').on('click');
+    //$('a').on('click');
 })(window);

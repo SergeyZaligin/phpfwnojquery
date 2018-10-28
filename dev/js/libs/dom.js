@@ -5,7 +5,14 @@
     
     function $ (selector) {
        
-        const elems = document.querySelectorAll(selector);
+        let elems = [];
+       
+        if (typeof selector === 'string') {
+            elems = document.querySelectorAll(selector);
+        } else {
+            elems = [selector];
+        }
+        console.log(elems);
         
         return new Elems(elems);
         
@@ -36,9 +43,11 @@
             if (undefined === callback) {
                 
                 const cnt = elems.length-1;
-
+                let evt = document.createEvent('Event');
+                evt.initEvent(type, true, true);
+                
                 for (let i = cnt; i >= 0; i--) {
-                    elems[i].type();
+                    elems[i].dispatchEvent(evt);
                 }
                 
             } else {

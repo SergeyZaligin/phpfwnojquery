@@ -13,14 +13,13 @@
     
     Review.prototype.init = function () {
         
-            
-        this.selector.addEventListener('click', function (e) {
-            console.log('click');
-
-
-         });
-        
-        
+            if (this.selector) {
+                this.selector.addEventListener('click', function (e) {
+                    console.log('click');
+                 });
+            } else {
+            return false;
+        }
     };
     
     App.Review = Review;
